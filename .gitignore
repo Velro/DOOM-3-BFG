@@ -1,0 +1,5 @@
+*.sdf
+neo/.vs
+neo/Debug
+neo/Release
+neo/ipch
