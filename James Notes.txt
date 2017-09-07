@@ -1,0 +1,17 @@
+- Joystick thread runs at 250 fps!
+
+- checkout how idDict is used. "map entity spawning, GUI state management, and other things"
+	- where is boundary between c-strings and idStr's? When is each used?
+- Do they implement a SIMD memcpy somewhere? Its a function in idSIMDPrcoess
+- pick apart their scoped profiler!
+- its doing some FPU stuff somewhere, also referred to as x87 online. lets find it!
+- Extent of exceptions use?
+
+-CVAR - console variable
+
+- tagged memory - "memory tag names are used to sort allocations for sys_dumpMemory and other reporting functions"
+	- yooo they replaced 'new'
+
+- Hierarchy class, may be helpful idea for yamgine
+
+- idStr's have 20 char base, reallocates if a larger string is requested, (32, 64, etc...)
